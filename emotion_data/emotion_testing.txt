@@ -1,0 +1,6 @@
+emotion_data/emotion_images/1.jpeg
+emotion_data/emotion_images/2.jpeg
+emotion_data/emotion_images/3.jpeg
+emotion_data/emotion_images/4.jpeg
+emotion_data/emotion_images/5.jpeg
+emotion_data/emotion_images/6.jpeg

@@ -1,0 +1,5 @@
+classes = 2
+train = emotion_data/emotion_training.txt
+valid = emotion_data/emotion_testing.txt
+names = emotion_data/emotion.names
+backup = backup

@@ -1,0 +1,2 @@
+emotion_data/emotion_images/1.jpeg
+emotion_data/emotion_images/6.jpeg
