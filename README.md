@@ -1,8 +1,8 @@
 # sentiment-analysis-with-yolo
 
 [<img align="left" alt="Yolo" width="80" src="https://pjreddie.com/media/image/yologo_2.png" />]( https://pjreddie.com/darknet/yolo/)
-[<img align="left" alt="Yolo" width="80" src="https://bymmb.com/wp-content/uploads/2019/01/2000px-Python-logo-notext.svg1_.png" />]( https://www.python.org/)
-[<img align="left" alt="Yolo" width="80" src="hhttps://res.cloudinary.com/nholmber/image/upload/v1536751563/jupyter_colab_small_axbdcm.png" />]( https://jupyter.org/)
+[<img align="left" alt="Python3" width="80" src="https://bymmb.com/wp-content/uploads/2019/01/2000px-Python-logo-notext.svg1_.png" />]( https://www.python.org/)
+[<img align="left" alt="Google Colap - Jupyter" width="80" src="https://res.cloudinary.com/nholmber/image/upload/v1536751563/jupyter_colab_small_axbdcm.png" />]( https://jupyter.org/)
 
 
 <br>
