@@ -1,6 +1,6 @@
 # sentiment-analysis-with-yolo
 
-[<img align="left" alt="Yolo" width="80" src="https://pjreddie.com/media/image/yologo_2.png" />]( https://pjreddie.com/darknet/yolo)
+[<img align="left" alt="Yolo" width="80" heigth="100" src="https://pjreddie.com/media/image/yologo_2.png" />]( https://pjreddie.com/darknet/yolo)
 <br>
 [<img align="left" alt="Python3" width="80" src="https://bymmb.com/wp-content/uploads/2019/01/2000px-Python-logo-notext.svg1_.png" />]( https://www.python.org/)
 <br>
