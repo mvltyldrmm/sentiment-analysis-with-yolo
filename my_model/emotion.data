@@ -1,0 +1,4 @@
+classes = 2
+train = veriegitme/emotion_training.txt
+valid = veriegitme/emotion_training.txt
+backup = backup

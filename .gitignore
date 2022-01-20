@@ -1,0 +1,3 @@
+/config/.env
+/my_model/emotion_yolov4.cfg
+/my_model/emotion_yolov4_1000.weights
