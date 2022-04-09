@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Emotion Detection</title>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.25/webcam.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="\static\css\style.css" />
+    <link rel="shortcut icon" href=/static/images/logo.png" type="image/x-icon">
+  </head>
+  <body>
+
+    <div class="nav">
+      <a href="\"
+        ><p
+          style="
+            padding: 5px;
+            font-size: 20px;
+            color: white;
+            float: left;
+            font-weight: 500;
+            padding-left: 10px;
+          "
+        >
+          Home
+        </p></a
+      >
+    </div>
+    <div style="margin-top: 5px; margin-bottom: 20px">
+      <video muted id = "video" autoplay></video>
+
+      <p class="txt">Hi!</p>
+      <p class="txts" >
+        When you enter the website, the video starts automatically. 
+        Recording starts with the start button. Click the stop button and 
+        the recording will stop and download..<img
+          class="ques-image"
+          src="/static/images/face.jpg"
+          alt="face"
+        /><br />
+      </p>
+      <div class="unit">
+
+        <br />
+        <!-- <input
+          type="button"
+          value="Stop And Download Picture"
+          id="btPic"
+          onclick="takeSnapShot()"
+        /> -->
+        <button id="btn">
+          Start Record
+        </button>
+
+       
+        <button id = "stopbtn">Stop Record And Saved</button>
+
+        <input
+        type="button"
+        value="Go to emotion detect"
+        onclick=" location.href= '/detect' "
+      />
+
+      </div>
+    </div>
+
+    <div id="results" style="display: none"></div>
+  </body>
+
+  <script>
+    window.onload = function() {
+    const parts = [];
+    let mediaRecorder;
+    navigator.mediaDevices.getUserMedia({
+        audio: true,video   : true
+    }).then(stream=>{
+        document.getElementById('video').srcObject = stream;
+        document.getElementById("btn").onclick=function(){
+            mediaRecorder = new MediaRecorder(stream);
+
+            mediaRecorder.start(1000);
+
+            mediaRecorder.ondataavailable = function(e) {
+                parts.push(e.data)
+            }
+        }
+    });
+
+    document.getElementById("stopbtn").onclick=function(){
+        mediaRecorder.stop();
+        const blob = new Blob(parts, {
+            type: "video/webm"
+        });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        document.body.appendChild(a);
+        a.style= "display: none";
+        a.href = url;
+        a.download = "test.webm";
+        a.click();
+    }
+}
+  </script> 
+
+</html>

@@ -1,0 +1,80 @@
+body {
+  display: contents;
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  text-align: center;
+  align-content: center;
+}
+
+.nav {
+  background-color: black;
+  height: 60px;
+  width: 100%;
+  color: white;
+}
+
+.div-txt {
+  width: 50%;
+  height: 700px;
+}
+
+.ques-image {
+  display: block;
+  width: 500px;
+  margin: auto;
+  padding: 0% 4% 4% 4%;
+}
+
+.txt {
+  font-size: 60px;
+  font-weight: 500;
+  color: black;
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+.txts {
+  font-size: 38px;
+  font-weight: 300;
+  color: #761678;
+  padding-left: 16px;
+  padding-top: 16px;
+  text-align: justify;
+}
+
+input[type="button"] {
+  padding: 8px;
+  background-color: black;
+  border: none;
+  border-radius: 16px;
+  color: white;
+  font-weight: 500;
+  width: 400px;
+  height: 45px;
+  font-size: 20px;
+}
+
+form {
+  margin-top: 15px;
+}
+form input {
+  margin-right: 15px;
+}
+#results {
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid;
+  background: #ccc;
+}
+
+.logo {
+  display: inline;
+  width: 50px;
+  height: 50px;
+}
+
+#camera {
+  float: left;
+  margin-left: 43%;
+}
