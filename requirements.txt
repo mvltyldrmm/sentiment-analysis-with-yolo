@@ -10,3 +10,4 @@ pycparser==2.19
 pydantic
 starlette
 websockets==8.1
+opencv-python
